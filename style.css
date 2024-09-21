@@ -1972,14 +1972,14 @@ body {
 
 @-webkit-keyframes love {
   50% {
-    fill: rgb(210, 80, 30);
+    fill: rgb(255, 130, 0);
     opacity: 1;
   }
 }
 
 @keyframes love {
   50% {
-    fill: rgb(210, 105, 30);
+    fill: rgb(255, 165, 0);
     opacity: 1;
   }
 }
