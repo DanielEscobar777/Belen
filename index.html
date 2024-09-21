@@ -33,8 +33,23 @@
             margin-top: 20px;
             animation: pulse 2s infinite; /* Pequeño efecto de pulsación */
         }
+.button-container {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-top: 30px; /* Para mantener el margen superior */
+}
 
-        button {
+button {
+    font-size: 3vw;
+    padding: 15px 30px;
+    border: none;
+    background-color: #ff3366;
+    color: white;
+    cursor: pointer;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+          button {
             font-size: 3vw;
             padding: 15px 30px;
             margin-top: 30px;
@@ -70,7 +85,10 @@
     <div>
         <h1>Belen!!!</h1>
         <h2>Mira</h2>
-        <button onclick="window.location.href='rosas.html'">Ver sorpresa☞💛</button>
+        <div class="button-container">
+<button onclick="window.location.href='rosas.html'">Ver sorpresa☞💛</button>
+</div>
+        
     </div>
 </body>
 </html>
